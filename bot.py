@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 
 # === Configuration ===
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "PUT_YOUR_BOT_TOKEN_HERE")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8514728370:AAGhbWu7d_lz2aU_-hNJszfM7Seg3H5SfT0")
 PAYPAL_LINK = os.getenv("PAYPAL_LINK", "https://www.paypal.me/yourusername/5")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 PAID_USERS_FILE = "paid_users.json"
