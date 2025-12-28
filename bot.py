@@ -16,7 +16,7 @@ PAYPAL_LINK = os.getenv("PAYPAL_LINK", "https://www.paypal.me/yourusername/5")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 PAID_USERS_FILE = "paid_users.json"
 BAD_WORDS = {"badword1", "badword2", "foo"}
-
+ADMIN_CHAT_ID = 8514728370  # nomaini uz savu Telegram ID
 # === Helpers ===
 def load_paid_users() -> Set[int]:
     if not os.path.exists(PAID_USERS_FILE):
